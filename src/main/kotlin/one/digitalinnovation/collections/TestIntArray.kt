@@ -28,6 +28,14 @@ fun main() {
     for (valor in values){
         println(valor)
     }
-    
+
     println("oi")
+
+
+    //Testando IntArrayOf, forma de declarar um array sem necessariamente declarar o size
+    val values2 = intArrayOf(2, 4, 5, 12, 25)
+
+    values2.forEach {
+        println(it)
+    }
 }
