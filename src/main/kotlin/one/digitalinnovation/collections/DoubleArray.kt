@@ -10,4 +10,8 @@ fun main() {
     println("Suas fontes de renda atual são:")
     salario.forEach { println("R$ " + it) }
     println("Sua renda é de R$ " + resultado)
+
+
+    println("                                                                   ")
+
 }
