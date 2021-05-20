@@ -7,7 +7,7 @@ fun main() {
     val funcionarios = listOf(joao,pedro,claudio)
 
     funcionarios.forEach {println(it)}
-
+    funcionarios.sortedBy { it.salario }.forEach{println(it)}
     //Usando uma função para buscar dados de um funcionario na array
     println("----------------")
     println(funcionarios.find { it.nome=="joao" })
